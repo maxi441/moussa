@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.container {
+    background: linear-gradient(to right, #ffffff, #f0f0f0); /* Gradient background */
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #007BFF;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+h4 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.imgb {
+    width: 100%;
+    height: auto;
+    border-radius: 20px; /* Increased border-radius for smoother corners */
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Increased gap between form elements */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #ccc; /* Thicker border */
+    border-radius: 20px; /* Rounded corners */
+    font-size: 18px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #007BFF;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 20px; /* Rounded corners */
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
